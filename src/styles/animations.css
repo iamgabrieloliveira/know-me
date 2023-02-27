@@ -1,0 +1,13 @@
+.animated-menu-mobile {
+    animation: open-mobile-menu 200ms;
+}
+
+.animated-fade-in {
+    animation: fade-in 300ms;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: .1;
+    }
+}

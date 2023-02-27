@@ -1,0 +1,24 @@
+@import './animations.css';
+
+@tailwind base;
+
+@layer base {
+    html {
+        @apply text-white font-default;
+    }
+
+    body, #app {
+        @apply h-screen bg-defaultBackground;
+    }
+
+    #app {
+        @apply animated-fade-in;
+    }
+
+    a {
+        @apply hover:opacity-70 transition-opacity;
+    }
+}
+
+@tailwind components;
+@tailwind utilities;
